@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CREEm2PL20GQDrXV0PVe5w" Reference="Jg7-c7_wa0CXPCyU6GrHKA/2PplA0m1gkCIVope0_ZmDw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/work-items" CVScreenId="1ae97161-de11-43ae-a06b-deb46dec3956" DesignTimeRectangle="922, 891, 27, 28" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="[string.Format(&quot;&lt;webctrl aaname='{0}' tag='A' /&gt;&quot;, in_TransactionItem)]" FuzzySelectorArgument="&lt;webctrl aaname='{{in_TransactionItem.ToString}}' tag='A' type='' class='page-numbers current' check:innerText='1' /&gt;" Guid="26821ade-6fd3-4e42-8444-e93f7aac2403" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="1ae97161-de11-43ae-a06b-deb46dec3956" CvElementArea="1546, 889, 33, 32" CvTextArea="1557, 897, 11, 12" CvTextArgument="&gt;" CvType="Button" DesignTimeRectangle="1550, 891, 27, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-label='Next »' tag='A' type='' class='page-numbers' aaname='&amp;gt;' check:innerText='&amp;gt;' /&gt;" Guid="c43cad56-2da9-482b-b631-e236a6fff3b1" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e5b9d4a3345d0828f447441a1b9537d1.png" xmlns="">02HeQ9rzY_E6m1ldJdEvucg</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData IsString="False" IsVariable="False" Name="in_TransactionItem" />
+    </scg:List>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
